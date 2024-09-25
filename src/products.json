@@ -1,0 +1,320 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 14 Pro Max",
+        "description": "6.7-inch display, A16 Bionic chip, triple 48MP camera system.",
+        "price": 1099,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h19/h85/64508108931102.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/ha5/hae/64508111912990.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h11/h2e/64508113485854.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/he8/h62/64508118794270.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "iPhone 13 Mini",
+        "description": "5.4-inch display, A15 Bionic chip, dual 12MP camera system.",
+        "price": 699,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hf7/h77/64005316706334.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h23/h4c/64005319589918.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h27/ha9/64005322997790.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h2b/hb3/64005325094942.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "iPhone 12",
+        "description": "6.1-inch display, A14 Bionic chip, dual 12MP camera system.",
+        "price": 599,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h12/h13/63952841605150.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/he3/h5a/63952844685342.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hc2/h4b/63952851238942.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "iPhone SE",
+        "description": "4.7-inch display, A15 Bionic chip, 12MP camera.",
+        "price": 429,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h42/hb8/64167378157598.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h6e/h49/64167380385822.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h56/h47/64167382351902.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "iPhone 11",
+        "description": "6.1-inch display, A13 Bionic chip, dual 12MP camera system.",
+        "price": 499,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h96/h9f/63948154830878.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hf8/h94/63948157779998.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/ha5/h82/63948159909918.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h3b/hcd/63948163088414.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Samsung Galaxy S21",
+        "description": "6.2-inch AMOLED display, Exynos 2100, triple camera.",
+        "price": 799,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/ha9/h44/64145784373278.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h2b/h20/64145794498590.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h98/h80/64145800036382.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Google Pixel 7 Pro",
+        "description": "6.4-inch AMOLED display, Google Tensor chip, dual camera.",
+        "price": 699,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h0a/ha0/65154239496222.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h56/h3c/65154241822750.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hca/h8e/65154242641950.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "OnePlus 12R",
+        "description": "6.7-inch AMOLED display, Snapdragon 888, quad camera system.",
+        "price": 899,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h15/hfa/85201164795934.png?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Xiaomi Mi 12S",
+        "description": "6.81-inch AMOLED display, Snapdragon 888, triple camera.",
+        "price": 749,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hc2/hc4/80844954664990.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hb4/hb3/80844953387038.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hcc/hf6/80844954861598.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h71/h05/80844955058206.png?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Sony Xperia 5 II",
+        "description": "6.1-inch OLED display, Snapdragon 865, triple camera.",
+        "price": 799,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h50/hab/84206535475230.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "MacBook Air 13",
+        "description": "13.6-inch Retina display, M2 chip, 8GB RAM, 256GB SSD.",
+        "price": 1199,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/he6/hfd/64506820984862.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hcd/h1c/64506827669534.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h90/h16/64506823475230.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "MacBook Pro 14",
+        "description": "14.2-inch Liquid Retina XDR display, M1 Pro chip, 16GB RAM.",
+        "price": 1999,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hd3/h7b/84577188020254.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h5b/h39/85167731212318.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h3a/hf7/84713104048158.png?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Dell XPS 13",
+        "description": "13.4-inch UHD+ display, Intel Core i7, 16GB RAM, 512GB SSD.",
+        "price": 1399,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h3b/heb/67343534358558.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h4c/h59/67343536455710.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "HP Spectre x360",
+        "description": "13.3-inch 4K OLED display, Intel Core i7, 16GB RAM, 1TB SSD.",
+        "price": 1599,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h23/h63/85983813959710.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h19/hfa/85983814090782.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h88/h93/85983814156318.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Asus ROG Zephyrus G14",
+        "description": "14-inch QHD display, AMD Ryzen 9, 16GB RAM, 1TB SSD.",
+        "price": 1499,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h85/h3d/85808084615198.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h4d/h35/85808084680734.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h82/h56/85808084746270.png?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "description": "14-inch UHD display, Intel Core i7, 16GB RAM, 512GB SSD.",
+        "price": 1699,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h07/h45/86643834945566.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hcc/hea/86643835076638.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Microsoft Surface Laptop 4",
+        "description": "13.5-inch PixelSense display, Intel Core i5, 8GB RAM, 256GB SSD.",
+        "price": 999,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hf5/hff/86301493919774.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Razer Blade 15",
+        "description": "15.6-inch 4K OLED display, Intel Core i7, NVIDIA RTX 3070.",
+        "price": 2399,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hac/h8e/66821153619998.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hc9/h4f/66821153882142.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Acer Swift 3",
+        "description": "14-inch FHD display, AMD Ryzen 7, 8GB RAM, 512GB SSD.",
+        "price": 699,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h20/h19/86174905499678.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h0c/h73/86174905565214.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h53/h0b/86174905630750.png?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Gigabyte Aero 15",
+        "description": "15.6-inch 4K AMOLED display, Intel Core i9, NVIDIA RTX 3080.",
+        "price": 2599,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h83/h42/85365790441502.png?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h68/h61/85365790507038.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h68/h61/85365790507038.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Apple AirPods Pro",
+        "description": "Wireless earbuds with active noise cancellation.",
+        "price": 249,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/ha3/h07/84108189630494.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h03/h0e/84108189696030.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h14/h8a/84108189761566.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h34/he4/84108189892638.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Apple AirPods 3",
+        "description": "Wireless earbuds",
+        "price": 149,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hda/hc7/64341967994910.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h67/hb0/64341974220830.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Logitech G502 HERO",
+        "description": "High-performance wired gaming mouse with 11 customizable buttons and 16,000 DPI.",
+        "price": 79,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h4f/h23/63835048738846.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h05/hfb/63835051753502.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hb5/hfe/63835061714974.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Corsair K95 RGB Platinum",
+        "description": "Mechanical gaming keyboard with customizable RGB lighting and dedicated macro keys.",
+        "price": 199,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h5e/ha0/80847194882078.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h79/h5b/80847194947614.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "SteelSeries Arctis 7",
+        "description": "Wireless gaming headset with surround sound and a 24-hour battery life.",
+        "price": 149,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h98/h40/82302482317342.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h94/hb7/82302485528606.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h0b/h7f/82302487035934.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Razer Kraken X",
+        "description": "Lightweight wired gaming headset with 7.1 surround sound and noise-cancelling microphone.",
+        "price": 49,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hcd/h99/64088590942238.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Logitech MX Keys",
+        "description": "Wireless illuminated keyboard designed for comfortable typing with smart backlighting.",
+        "price": 99,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/heb/h9f/86350822080542.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h06/h81/86350822146078.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Anker 4-Port USB 3.0 Hub",
+        "description": "Portable 4-port USB hub with high-speed data transfer.",
+        "price": 19,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hde/h6e/82748704292894.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Samsung T7 Portable SSD",
+        "description": "1TB portable SSD with high-speed data transfer and shock-resistant metal design.",
+        "price": 159,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/hbb/h49/64219426357278.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/ha3/hd3/64219433500702.jpg?format=gallery-medium"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "HyperX Cloud II",
+        "description": "Wired gaming headset with virtual 7.1 surround sound and memory foam ear cushions.",
+        "price": 99,
+        "image": [
+            "https://resources.cdn-kaspi.kz/img/m/p/h72/he2/63770832764958.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/h33/hb1/63770833649694.jpg?format=gallery-medium",
+            "https://resources.cdn-kaspi.kz/img/m/p/hf4/h56/63770834960414.jpg?format=gallery-medium"
+        ]
+    }
+]
