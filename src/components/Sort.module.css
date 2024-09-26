@@ -39,3 +39,9 @@
 .sortList li:hover > span {
     opacity: 1;
 }
+
+@media (max-width: 400px) {
+    .sortList :global(.icon) {
+        display: none;
+    }
+}

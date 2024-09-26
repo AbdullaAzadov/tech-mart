@@ -18,12 +18,14 @@
 }
 
 .filter {
+    min-width: max-content;
     display: flex;
     gap: 1rem;
 }
 
 .products-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
     padding: 2rem 0;
@@ -65,4 +67,16 @@
 
 .product-card :global(.product-info) > :first-child {
     flex: 0.8;
+}
+
+@media (max-width: 640px) {
+    .filter {
+        display: block;
+    }
+    .filter :global(.icon) {
+        display: none;
+    }
+    .filter *:last-child {
+        margin-top: 1rem;
+    }
 }

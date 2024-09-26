@@ -1,5 +1,7 @@
 .container {
+    min-width: max-content;
     display: flex;
+    align-items: center;
     gap: 8px;
 }
 .container b {
@@ -10,7 +12,7 @@
 }
 .input {
     border: 1px solid rgba(128, 128, 128, 0.9);
-    padding: 2px 1rem 4px;
+    padding: 4px 1rem 4px;
     border-radius: 1rem;
 }
 .input > *:not(:last-child):not(span) {
@@ -23,7 +25,6 @@
 .input > hr {
     display: inline;
     border: none;
-    padding: -1px;
     border-left: 1px solid rgba(108, 108, 108, 0.5);
 }
 
@@ -41,4 +42,19 @@
 .input input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+@media (max-width: 640px) {
+    .container {
+        max-width: max-content;
+    }
+
+    .input {
+        padding-top: 0;
+        margin: 0;
+    }
+
+    .container > b {
+        display: none;
+    }
 }

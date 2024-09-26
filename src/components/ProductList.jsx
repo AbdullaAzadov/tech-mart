@@ -98,7 +98,7 @@ function ProductList() {
         <main className={styles.main}>
             <nav>
                 <div className={styles.filter}>
-                    <CiFilter size={24} />
+                    <CiFilter size={24} className="icon" />
                     <Search />
                     <PriceRange />
                 </div>
