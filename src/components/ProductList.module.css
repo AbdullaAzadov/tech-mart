@@ -5,10 +5,16 @@
 }
 
 .main nav {
-    display: flex;
-    justify-content: space-between;
     padding: 0 1rem 1rem;
     border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+}
+
+.main nav > *:not(:last-child) {
+    margin-bottom: 0.25rem;
+}
+
+.main nav > *:last-child {
+    margin-bottom: -0.5rem;
 }
 
 .filter {

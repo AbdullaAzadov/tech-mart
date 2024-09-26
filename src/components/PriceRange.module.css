@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    gap: 8px;
+}
+.container b {
+    font-weight: 500;
+}
+.container span {
+    color: gray;
+}
+.input {
+    border: 1px solid rgba(128, 128, 128, 0.9);
+    padding: 2px 1rem 4px;
+    border-radius: 1rem;
+}
+.input > *:not(:last-child):not(span) {
+    margin-right: 1rem;
+}
+.input > span {
+    margin-right: 0.25rem;
+}
+
+.input > hr {
+    display: inline;
+    border: none;
+    padding: -1px;
+    border-left: 1px solid rgba(108, 108, 108, 0.5);
+}
+
+.input input {
+    width: 4rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    transition: border 0.2s ease;
+}
+.input input:focus {
+    border-bottom: 1px solid rgb(57, 105, 169);
+}
+.input input::-webkit-outer-spin-button,
+.input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
