@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams, useNavigate } from "react-router-dom";
 import { CiFilter } from "react-icons/ci";
 import styles from "./ProductList.module.css";
 import Search from "./Search";
@@ -9,6 +9,7 @@ import Error from "./Error";
 import ProductsLoader from "./ProductsLoader";
 
 function ProductList() {
+    const navigate = useNavigate();
     const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
@@ -121,7 +122,11 @@ function ProductList() {
             </nav>
             <ul className={styles.products}>
                 {filteredProducts.map((product) => (
-                    <li className={styles["product-card"]} key={product.id}>
+                    <li
+                        className={styles["product-card"]}
+                        key={product.id}
+                        onClick={() => navigate(`${product.id}`)}
+                    >
                         <div className="product-image">
                             <img src={product.image[0]} alt={product.name} />
                         </div>

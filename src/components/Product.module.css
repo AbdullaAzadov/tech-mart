@@ -1,0 +1,160 @@
+.wrapper {
+    box-sizing: border-box;
+    max-width: 90vw;
+    min-width: 300px;
+    margin: 2rem auto 1rem;
+    border-radius: 0.75rem;
+    background-color: rgb(238, 238, 238);
+    padding: 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.card {
+    width: 80%;
+    height: 240px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem 0;
+    box-shadow: 0 0 4px rgba(128, 128, 128, 0.6);
+}
+.card img {
+    height: 100%;
+    max-width: 90%;
+    object-fit: contain;
+}
+.carousel {
+    width: 80%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+}
+.carousel :global(.miniCard) {
+    width: 15vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 1px rgba(128, 128, 128, 0.6);
+    transition: all 0.3s ease;
+}
+.carousel :global(.miniCard):hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 4px rgba(128, 128, 128, 0.9);
+}
+.carousel img {
+    height: 90%;
+    max-width: 90%;
+    object-fit: contain;
+}
+
+.title {
+    border-top: 2px solid rgba(128, 128, 128, 0.3);
+    color: rgb(50, 50, 50);
+    text-shadow: 0 0 4px rgba(128, 128, 128, 0.5);
+    margin: 1rem 0 1rem;
+    padding-top: 1rem;
+    width: 80%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.title :global(.price) {
+    color: rgb(0, 140, 0);
+}
+.desc {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(220, 220, 220);
+    font-size: 1rem;
+}
+
+.backBtn {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    color: gray;
+    font-size: 2.5rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.backBtn:hover {
+    color: #344966;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 4px rgba(128, 128, 128, 0.5);
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1080px) {
+    .backBtn {
+        position: absolute;
+        top: 8%;
+        left: 2%;
+        color: gray;
+        font-size: 3rem;
+        border-radius: 10rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .wrapper {
+        border-radius: 2.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        position: relative;
+        padding: 2rem 6em;
+    }
+    .imageBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    .card {
+        min-width: 400px;
+        max-width: 400px;
+        height: 400px;
+        text-align: center;
+        border-radius: 2rem;
+    }
+    .carousel {
+        min-width: 400px;
+        max-width: 400px;
+    }
+    .carousel :global(.miniCard) {
+        height: 91px;
+        border-radius: 1rem;
+    }
+    .section:global(.info) {
+        align-items: end;
+    }
+    .title {
+        border-top: none;
+        padding-top: 0;
+        padding-bottom: 2rem;
+        margin: 1rem 0 1rem;
+        border-bottom: 1px solid rgba(93, 93, 93, 0.5);
+    }
+    .desc {
+        padding: 2rem;
+        font-size: 1.3rem;
+    }
+}
