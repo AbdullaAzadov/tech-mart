@@ -19,10 +19,12 @@ export default function Product() {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch(`https://abdullaazadov.github.io/tech-mart-json-server/products.json`)
+        fetch(
+            `https://abdullaazadov.github.io/tech-mart-json-server/products.json`
+        )
             .then((res) => res.json())
             .then((data) => {
-                const target = data.filter((p) => +p.id === +id);
+                const target = data.products.filter((p) => +p.id === +id);
                 if (!target.length) throw new Error();
                 setProduct(target[0]);
             })

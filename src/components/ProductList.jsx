@@ -24,7 +24,9 @@ function ProductList() {
     //Fetch products
     useEffect(() => {
         try {
-            fetch("https://abdullaazadov.github.io/tech-mart-json-server/products.json")
+            fetch(
+                "https://abdullaazadov.github.io/tech-mart-json-server/products.json"
+            )
                 .then((response) => {
                     if (!response.ok) {
                         throw new Error("Ошибка при выполнении запроса");
@@ -32,16 +34,16 @@ function ProductList() {
                     return response.json();
                 })
                 .then((data) => {
-                    setProducts(data);
-                    setFilteredProducts(data);
+                    setProducts(data.products);
+                    setFilteredProducts(data.products);
                     if (minPrice === null) {
                         params.set(
                             "min",
-                            Math.min(...data.map((v) => v.price))
+                            Math.min(...data.products.map((v) => v.price))
                         );
                         params.set(
                             "max",
-                            Math.max(...data.map((v) => v.price))
+                            Math.max(...data.products``.map((v) => v.price))
                         );
                         setParams(params);
                     }
