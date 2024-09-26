@@ -27,7 +27,7 @@ export default function Product() {
                 setProduct(target[0]);
             })
             .catch(() => setIsError(true))
-            .finally(() => setIsLoading(false));
+            .finally(() => setTimeout(() => setIsLoading(false), 300));
     }, [id]);
 
     if (isError) return <Error causer="error" />;

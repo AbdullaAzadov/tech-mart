@@ -45,7 +45,11 @@ function ProductList() {
                         );
                         setParams(params);
                     }
-                    setIsLoading(false);
+                    setTimeout(() => {
+                        console.log("time", Date.date);
+
+                        setIsLoading(false);
+                    }, 200);
                 })
                 .catch((error) => {
                     setIsError(true);

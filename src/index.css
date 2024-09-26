@@ -83,7 +83,7 @@ code {
         rgba(150, 150, 150, 1) 100%
     );
     background-size: 400% 100%;
-    animation: gradient 4s ease-in infinite;
+    animation: gradient 1s ease-in infinite;
 }
 
 @media (max-width: 560px) {
