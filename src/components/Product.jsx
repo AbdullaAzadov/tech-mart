@@ -19,7 +19,7 @@ export default function Product() {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch(`http://localhost:3004/products`)
+        fetch(`https://abdullaazadov.github.io/tech-mart-json-server/products.json`)
             .then((res) => res.json())
             .then((data) => {
                 const target = data.filter((p) => +p.id === +id);
