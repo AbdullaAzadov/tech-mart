@@ -24,7 +24,7 @@ function ProductList() {
     //Fetch products
     useEffect(() => {
         try {
-            fetch("http://localhost:3004/products")
+            fetch("https://abdullaazadov.github.io/tech-mart-json-server/products.json")
                 .then((response) => {
                     if (!response.ok) {
                         throw new Error("Ошибка при выполнении запроса");
