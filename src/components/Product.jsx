@@ -31,7 +31,7 @@ export default function Product() {
     }, [id]);
 
     if (isError) return <Error causer="error" />;
-    if (isLoading) return;
+    if (isLoading) return <Error causer="loading" />;
 
     return (
         <main className={styles.wrapper}>

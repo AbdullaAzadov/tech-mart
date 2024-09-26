@@ -103,3 +103,15 @@ code {
         background-position: 0% 50%;
     }
 }
+
+.loader {
+    animation: loader 3s ease infinite;
+}
+@keyframes loader {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

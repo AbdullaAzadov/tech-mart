@@ -56,6 +56,7 @@ function ProductList() {
             setIsLoading(false);
             throw error;
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // Filter and Sort

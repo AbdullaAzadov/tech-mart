@@ -2,6 +2,7 @@ import { FaFilterCircleXmark } from "react-icons/fa6";
 import { LuSearchX } from "react-icons/lu";
 import { MdError } from "react-icons/md";
 import { TbShoppingCartX } from "react-icons/tb";
+import { RiLoader4Line } from "react-icons/ri";
 import NotFound from "./NotFound";
 
 export default function Error({ causer, search = "" }) {
@@ -39,6 +40,17 @@ export default function Error({ causer, search = "" }) {
                     <h3>
                         Не удалось найти товары. Пожалуйста попробуйте позднее.
                     </h3>
+                </section>
+            );
+
+        case "loading":
+            return (
+                <section className="not-found-wrapper">
+                    <RiLoader4Line
+                        size={100}
+                        color="#344966"
+                        className="loader"
+                    />
                 </section>
             );
 
