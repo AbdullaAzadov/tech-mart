@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tech-mart/static/css/main.cb09ffcd.css",
+    "main.js": "/tech-mart/static/js/main.c9d8a323.js",
+    "index.html": "/tech-mart/index.html",
+    "main.cb09ffcd.css.map": "/tech-mart/static/css/main.cb09ffcd.css.map",
+    "main.c9d8a323.js.map": "/tech-mart/static/js/main.c9d8a323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb09ffcd.css",
+    "static/js/main.c9d8a323.js"
+  ]
+}
