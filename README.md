@@ -6,5 +6,6 @@ Run instructions:
 `npm run serve` // "json-server --watch public/products.json --port 3004" - fake server from static data on 3004 port
 `npm start` // To start project
 
-demo on YouTube:
-(https://youtu.be/XaEmGMOEFeE)
+[demo on YouTube](https://youtu.be/XaEmGMOEFeE)
+
+[demo site](https://abdullaazadov.github.io/tech-mart)
