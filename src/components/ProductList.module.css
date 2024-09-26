@@ -1,0 +1,62 @@
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 2rem;
+}
+
+.main nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+}
+
+.filter {
+    display: flex;
+    gap: 1rem;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card :global(.product-image) {
+    height: 180px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card :global(.product-image) > img {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.product-card :global(.product-info) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card :global(.product-info) > :first-child {
+    flex: 0.8;
+}

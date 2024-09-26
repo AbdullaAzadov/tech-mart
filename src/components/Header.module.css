@@ -1,0 +1,30 @@
+.headerWrapper {
+    height: 3.5rem;
+}
+
+.header {
+    box-sizing: border-box;
+    position: fixed;
+    height: 3.5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    font-size: 1.5rem;
+    background-color: #344966;
+    color: white;
+    z-index: 1;
+}
+
+.logo {
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: border 0.2s ease;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.logo:hover {
+    border-bottom-color: white;
+}
