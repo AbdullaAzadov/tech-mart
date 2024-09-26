@@ -23,11 +23,11 @@
     gap: 1rem;
 }
 
-.products-container {
+.products {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 2rem 1rem;
     padding: 2rem 0;
 }
 

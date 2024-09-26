@@ -5,11 +5,14 @@ import styles from "./ProductList.module.css";
 import Search from "./Search";
 import PriceRange from "./PriceRange";
 import Sort from "./Sort";
+import Error from "./Error";
+import ProductsLoader from "./ProductsLoader";
 
 function ProductList() {
     const [products, setProducts] = useState([]);
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [isError, setIsError] = useState(false);
     const [params, setParams] = useSearchParams();
     const search = params.get("search");
     const minPrice = params.get("min");
@@ -21,7 +24,12 @@ function ProductList() {
     useEffect(() => {
         try {
             fetch("http://localhost:3004/products")
-                .then((response) => response.json())
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Ошибка при выполнении запроса");
+                    }
+                    return response.json();
+                })
                 .then((data) => {
                     setProducts(data);
                     setFilteredProducts(data);
@@ -36,6 +44,10 @@ function ProductList() {
                         );
                         setParams(params);
                     }
+                    setIsLoading(false);
+                })
+                .catch((error) => {
+                    setIsError(true);
                     setIsLoading(false);
                 });
         } catch (error) {
@@ -94,6 +106,9 @@ function ProductList() {
         setFilteredProducts(filtered);
     }, [minPrice, maxPrice, search, sortType, sortOrder, products]);
 
+    if (isError) return <Error causer={"error"} />;
+    if (isLoading) return <ProductsLoader />;
+
     return (
         <main className={styles.main}>
             <nav>
@@ -104,9 +119,9 @@ function ProductList() {
                 </div>
                 <Sort />
             </nav>
-            <div className={styles["products-container"]}>
+            <ul className={styles.products}>
                 {filteredProducts.map((product) => (
-                    <div className={styles["product-card"]} key={product.id}>
+                    <li className={styles["product-card"]} key={product.id}>
                         <div className="product-image">
                             <img src={product.image[0]} alt={product.name} />
                         </div>
@@ -114,9 +129,18 @@ function ProductList() {
                             <h4>{product.name}</h4>
                             <h5>${product.price}</h5>
                         </div>
-                    </div>
+                    </li>
                 ))}
-            </div>
+            </ul>
+            {!filteredProducts.length && search?.length && (
+                <Error causer={"search"} search={search} />
+            )}
+            {!filteredProducts.length && !search?.length && sortType && (
+                <Error causer={"filter"} />
+            )}
+            {!filteredProducts.length && !search?.length && !sortType && (
+                <Error causer={"noItems"} />
+            )}
         </main>
     );
 }
