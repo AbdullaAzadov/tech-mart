@@ -43,7 +43,7 @@ function ProductList() {
                         );
                         params.set(
                             "max",
-                            Math.max(...data.products``.map((v) => v.price))
+                            Math.max(...data.products.map((v) => v.price))
                         );
                         setParams(params);
                     }
